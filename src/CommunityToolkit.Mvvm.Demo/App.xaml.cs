@@ -17,10 +17,7 @@ namespace CommunityToolkit.Mvvm.Demo
             return new MainWindow();
         }  
         protected override void RegisterTypes(IServiceCollection services)
-        {
-            services.RegisterDialog();
-            services.RegisterForNavigation();
-            services.RegisterMef();
+        {  
         } 
     }
 
