@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworks>net8.0-windows</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.Core\LayUI.Wpf.CommunityToolkit.Mvvm.Core.csproj" />
+    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.Dialog\LayUI.Wpf.CommunityToolkit.Mvvm.Dialog.csproj" />
+    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.MEF\LayUI.Wpf.CommunityToolkit.Mvvm.MEF.csproj" />
+    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.Navigation\LayUI.Wpf.CommunityToolkit.Mvvm.Navigation.csproj" />
+  </ItemGroup>
+
+</Project>

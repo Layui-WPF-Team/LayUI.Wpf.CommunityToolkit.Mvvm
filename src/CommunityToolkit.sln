@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommunityToolkit.Mvvm.Demo", "CommunityToolkit.Mvvm.Demo\CommunityToolkit.Mvvm.Demo.csproj", "{C778CA85-702D-4F46-93FA-FAF1AC6D5D0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayUI.Wpf.CommunityToolkit.Mvvm.MEF", "LayUI.Wpf.CommunityToolkit.Mvvm.MEF\LayUI.Wpf.CommunityToolkit.Mvvm.MEF.csproj", "{37F01B2C-2DE4-412E-A813-1BDE09DF2D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayUI.Wpf.CommunityToolkit.Mvvm.Dialog", "LayUI.Wpf.CommunityToolkit.Mvvm.Dialog\LayUI.Wpf.CommunityToolkit.Mvvm.Dialog.csproj", "{32880EC0-05DA-452B-BB9F-31DC65BF800F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayUI.Wpf.CommunityToolkit.Mvvm.Navigation", "LayUI.Wpf.CommunityToolkit.Mvvm.Navigation\LayUI.Wpf.CommunityToolkit.Mvvm.Navigation.csproj", "{EE8EB02D-C18B-4E25-B3B6-07FD874B45FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayUI.Wpf.CommunityToolkit.Mvvm.Core", "LayUI.Wpf.CommunityToolkit.Mvvm.Core\LayUI.Wpf.CommunityToolkit.Mvvm.Core.csproj", "{A6F4A0FC-8EBE-4303-8C2E-6BC0DF2E39FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C778CA85-702D-4F46-93FA-FAF1AC6D5D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C778CA85-702D-4F46-93FA-FAF1AC6D5D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C778CA85-702D-4F46-93FA-FAF1AC6D5D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C778CA85-702D-4F46-93FA-FAF1AC6D5D0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F01B2C-2DE4-412E-A813-1BDE09DF2D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F01B2C-2DE4-412E-A813-1BDE09DF2D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F01B2C-2DE4-412E-A813-1BDE09DF2D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F01B2C-2DE4-412E-A813-1BDE09DF2D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32880EC0-05DA-452B-BB9F-31DC65BF800F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32880EC0-05DA-452B-BB9F-31DC65BF800F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32880EC0-05DA-452B-BB9F-31DC65BF800F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32880EC0-05DA-452B-BB9F-31DC65BF800F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE8EB02D-C18B-4E25-B3B6-07FD874B45FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE8EB02D-C18B-4E25-B3B6-07FD874B45FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE8EB02D-C18B-4E25-B3B6-07FD874B45FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE8EB02D-C18B-4E25-B3B6-07FD874B45FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6F4A0FC-8EBE-4303-8C2E-6BC0DF2E39FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6F4A0FC-8EBE-4303-8C2E-6BC0DF2E39FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6F4A0FC-8EBE-4303-8C2E-6BC0DF2E39FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6F4A0FC-8EBE-4303-8C2E-6BC0DF2E39FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A13E818B-D5C3-4C42-B355-841DA790592C}
+	EndGlobalSection
+EndGlobal
