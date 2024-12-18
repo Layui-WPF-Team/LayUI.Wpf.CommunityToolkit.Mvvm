@@ -9,7 +9,7 @@ namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
     public static class MefExtension
     {
-        public static void InitializeMef(this IServiceCollection services)
+        public static void RegisterMef(this IServiceCollection services)
         {
             var service = new MEFService();
             service.Run();

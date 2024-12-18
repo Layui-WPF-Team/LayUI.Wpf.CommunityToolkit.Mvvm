@@ -18,9 +18,9 @@ namespace CommunityToolkit.Mvvm.Demo
         }  
         protected override void RegisterTypes(IServiceCollection services)
         {
-            services.InitializeDialog();
-            services.InitializeNavigation();
-            services.InitializeMef();
+            services.RegisterDialog();
+            services.RegisterForNavigation();
+            services.RegisterMef();
         } 
     }
 

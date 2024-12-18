@@ -9,7 +9,7 @@ namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
     public static class DialogExtension
     {
-        public static void InitializeDialog(this IServiceCollection services)
+        public static void RegisterDialog(this IServiceCollection services)
         {
 
         }
