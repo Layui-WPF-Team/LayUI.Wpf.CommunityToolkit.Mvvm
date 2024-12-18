@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LayUI.Wpf.CommunityToolkit.Mvvm.Dialog
+namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
-    public interface IDialogService
+    public class NavigationService: INavigationService
     {
     }
 }

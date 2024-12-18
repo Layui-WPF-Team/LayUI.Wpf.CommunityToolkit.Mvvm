@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LayUI.Wpf.CommunityToolkit.Mvvm.Navigation
+namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
-    public static class NavigationExtension
-    { 
-        public static void InitializeNavigation(this IServiceCollection services)
+    public static class DialogExtension
+    {
+        public static void InitializeDialog(this IServiceCollection services)
         {
 
         }

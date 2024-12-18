@@ -4,9 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LayUI.Wpf.CommunityToolkit.Mvvm.Navigation
+namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
-    public interface INavigationService
+    public class MEFService : IMEFService
     {
+
+        internal void Run()
+        {
+
+        }
     }
 }

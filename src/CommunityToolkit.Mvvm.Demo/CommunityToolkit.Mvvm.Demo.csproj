@@ -13,11 +13,8 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.Core\LayUI.Wpf.CommunityToolkit.Mvvm.Core.csproj" />
-    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.Dialog\LayUI.Wpf.CommunityToolkit.Mvvm.Dialog.csproj" />
-    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.MEF\LayUI.Wpf.CommunityToolkit.Mvvm.MEF.csproj" />
-    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm.Navigation\LayUI.Wpf.CommunityToolkit.Mvvm.Navigation.csproj" />
+  <ItemGroup> 
+    <ProjectReference Include="..\LayUI.Wpf.CommunityToolkit.Mvvm\LayUI.Wpf.CommunityToolkit.Mvvm.csproj" />
   </ItemGroup>
 
 </Project>

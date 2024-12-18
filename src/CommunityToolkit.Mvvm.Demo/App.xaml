@@ -2,7 +2,7 @@
     x:Class="CommunityToolkit.Mvvm.Demo.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:core="clr-namespace:LayUI.Wpf.CommunityToolkit.Mvvm.Core;assembly=LayUI.Wpf.CommunityToolkit.Mvvm.Core"
+    xmlns:core="clr-namespace:LayUI.Wpf.CommunityToolkit.Mvvm;assembly=LayUI.Wpf.CommunityToolkit.Mvvm"
     xmlns:local="clr-namespace:CommunityToolkit.Mvvm.Demo">
     <Application.Resources />
 </core:LayUIApplication>

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LayUI.Wpf.CommunityToolkit.Mvvm.Core
+namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
     public class ContainerLocator
@@ -23,7 +23,7 @@ namespace LayUI.Wpf.CommunityToolkit.Mvvm.Core
         public static void SetContainerExtension(IServiceCollection serviceDescriptors)
         {
             _current = serviceDescriptors.BuildServiceProvider();
-        } 
+        }
         public static bool TrySetContainerExtension(IServiceCollection serviceDescriptors)
         {
             if (_current != null)

@@ -1,7 +1,4 @@
-﻿using LayUI.Wpf.CommunityToolkit.Mvvm.Core;
-using LayUI.Wpf.CommunityToolkit.Mvvm.Dialog;
-using LayUI.Wpf.CommunityToolkit.Mvvm.MEF;
-using LayUI.Wpf.CommunityToolkit.Mvvm.Navigation;
+﻿using LayUI.Wpf.CommunityToolkit.Mvvm;
 using Microsoft.Extensions.DependencyInjection;
 using System.ComponentModel;
 using System.Configuration;

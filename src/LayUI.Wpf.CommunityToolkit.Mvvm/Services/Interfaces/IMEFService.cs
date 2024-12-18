@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LayUI.Wpf.CommunityToolkit.Mvvm.MEF
+namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
     public interface IMEFService
     { 

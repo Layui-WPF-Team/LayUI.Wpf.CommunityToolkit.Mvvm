@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Windows;
-namespace LayUI.Wpf.CommunityToolkit.Mvvm.Core
+namespace LayUI.Wpf.CommunityToolkit.Mvvm
 {
     public abstract class LayUIApplication : Application
     {
@@ -26,7 +26,7 @@ namespace LayUI.Wpf.CommunityToolkit.Mvvm.Core
                 InitializeShell(shell);
             }
             OnInitialized();
-        } 
+        }
         protected virtual void InitializeShell(Window shell)
         {
             MainWindow = shell;
