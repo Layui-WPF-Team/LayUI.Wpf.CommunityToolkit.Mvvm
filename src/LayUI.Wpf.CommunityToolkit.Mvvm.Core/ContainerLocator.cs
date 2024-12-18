@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace LayUI.Wpf.CommunityToolkit.Mvvm.Core
 {
     [EditorBrowsable(EditorBrowsableState.Never)]
-    public class LayUIContainerLocator
+    public class ContainerLocator
     {
         private static IServiceProvider _current;
 

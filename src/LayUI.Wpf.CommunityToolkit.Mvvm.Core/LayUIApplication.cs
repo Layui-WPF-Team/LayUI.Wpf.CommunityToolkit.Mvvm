@@ -18,8 +18,8 @@ namespace LayUI.Wpf.CommunityToolkit.Mvvm.Core
         {
             var service = CreateContainerExtension();
             RegisterTypes(service);
-            LayUIContainerLocator.SetContainerExtension(service);
-            Container = LayUIContainerLocator.Container;
+            ContainerLocator.SetContainerExtension(service);
+            Container = ContainerLocator.Container;
             var shell = CreateShell();
             if (shell != null)
             {
